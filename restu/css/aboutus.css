@@ -1,0 +1,90 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    justify-content:center;
+    box-shadow: 1px 1px 20px rgba(9, 6, 6, 0.4);
+    background-color: #F93F04;
+}
+
+.photo{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f5;
+}
+
+.photo img{
+    width: 450px;
+    height: 450px;
+    border-radius: 300px;
+}
+.about{
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+}
+
+.about p{
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+    color: #fff;
+    font-size:1.5em;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: lighter;
+}
+
+.about h2{
+    position: absolute;
+    bottom: 427px;
+    left: 380px;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.about h2::after{
+    content: "where real food is!";
+    position: absolute;
+    bottom: -35px;
+    width: 300px;
+    left: -35px;
+    font-size: .7em;
+}
+
+.socail{
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socail p {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    font-size: large;
+    font-family: 'Shantell Sans', cursive;
+}

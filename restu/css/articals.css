@@ -1,0 +1,786 @@
+.content .container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 780px;
+    width: 760px;
+    gap: 20px 20px;
+}
+
+.content .container h1 {
+    position: absolute;
+    left: 995px;
+    top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    width: 240px;
+    height: 1px;
+}
+
+.content .container h1::after {
+    content: " ";
+    background-color: var(--maincolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 13px;
+    width: 215px;
+    height: 9px;
+    border-radius: 20px;
+}
+
+.content .container .logos img:nth-child(1) {
+    position: absolute;
+    width: 250px;
+    left: 75px;
+    height: 400px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.content .container .logos img:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    width: 250px;
+    left: 350px;
+    height: 180px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.content .container .logos img:nth-child(3) {
+    position: absolute;
+    top: 250px;
+    width: 250px;
+    left: 350px;
+    height: 180px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.content .container .description {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+}
+
+.content .container .description p {
+    position: absolute;
+    left: 1000px;
+    width: 330px;
+    font-size: 23px;
+    color: gray;
+    line-height: 30px;
+    height: 150px;
+}
+
+.hide{
+    overflow: hidden;
+}
+.show{
+    overflow: visible;
+}
+
+.content .container .description .btn {
+    position: absolute;
+    left: 1160px;
+    margin-top: 180px;
+    border: 3px solid var(--maincolor);
+    color: var(--maincolor);
+    background-color: transparent;
+    font-weight: bold;
+    cursor: grab;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    animation:cubic-bezier(.77,.7,.69,.67) ease-in-out;
+}
+
+/* content lock  */
+
+.description {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+}
+
+.description p:nth-child(1) {
+    position: absolute;
+    left: 1000px;
+    width: 330px;
+    font-size: 23px;
+    color: gray;
+    line-height: 30px;
+    overflow: hidden;
+    height: 150px;
+}
+
+.description .btn {
+    position: absolute;
+    left: 1160px;
+    margin-top: 180px;
+    border: 3px solid var(--maincolor);
+    color: var(--maincolor);
+    background-color: transparent;
+    font-weight: bold;
+    cursor: grab;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    animation:cubic-bezier(.77,.7,.69,.67) ease-in-out;
+}
+
+:root {
+    --maincolor: #F93F04;
+}
+
+.categories.container {
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.categories .container h1 {
+    position: absolute;
+    bottom: -650px;
+    left: 760px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.categories .container h1::after {
+    content: " ";
+    background-color: var(--maincolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 9px;
+    width: 70px;
+    height: 7px;
+    border-radius: 20px;
+}
+
+.categories .container .food {
+    position: absolute;
+    bottom: -700px;
+    left: 330px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    list-style: none;
+}
+
+.categories .container .food  a:nth-child(1):hover::after ,a:nth-child(2):hover::after ,a:nth-child(3):hover::after ,a:nth-child(4):hover::after ,a:nth-child(5):hover::after{
+    content: " ";
+    background-color: var(--maincolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    width: 50px;
+    height: 7px;
+    border-radius: 20px;
+}
+
+.fou:focus{
+    color: white;
+    background-color: var(--maincolor);
+}
+
+.categories .container .food  a{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-decoration: none;
+}
+
+
+
+
+
+.categories .container .items {
+    width: 1520;
+    position: relative;
+    top: 750px;
+}
+
+/* first card */
+
+.categories .container .items .item1 , .item2 , .item3 , .item4 , .item5 , .item6:not(img){
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.categories .container .items .item1 img, .item2 img,.item3 img , .item4 img , .item5 img , .item6 img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.categories .container .items .item1 p, .item2 p,.item3 p, .item4 p, .item5 p, .item6 p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.03em;
+    
+}
+
+.categories .container .items .item1 h2 , .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2{
+    position: absolute;
+    left: 290px;
+    top: 390px;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Lexend Zetta', serif;
+    font-family: 'Work Sans', serif;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 49px;
+}
+
+.categories .container .items .item1 .p1 , .item2 .p1,.item3 .p1, .item4 .p1, .item5 .p1, .item6 .p1{
+    position: absolute;
+    left: 310px;
+    top: 420px;
+    font-size:large ;
+    color: rgba(0, 0, 0, 0.567);
+}
+
+.categories .container .items .item1 .des , .item2 .des, .item3 .des, .item4 .des, .item5 .des, .item6 .des{
+    position: absolute;
+    top: 480px;
+    height: 70px;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.579);
+}
+
+.close{
+    overflow: hidden;
+}
+.open-it{
+    overflow: visible;
+}
+
+.categories .container .items .item1 .rate , .item2 .rate, .item3 .rate, .item4 .rate, .item5 .rate, .item6 .rate{
+    color: gold;
+    position: absolute;
+    top: 455px;
+    left: 20px;
+}
+
+.categories .container .items .item1 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item1 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+
+}
+
+button{
+    cursor: grabbing;
+}
+
+/* second card */
+
+.categories .container .items .item2 {
+    left: 560px;
+}
+
+
+
+.categories .container .items .item2 p {
+    left: 20px;
+    top: 380px;
+}
+
+.categories .container .items .item2 h2 {
+    left: 290px;
+    top: 390px;
+}
+
+.categories .container .items .item2 .p1 {
+    left: 310px;
+    top: 420px;
+}
+
+.categories .container .items .item2 .des {
+    top: 480px;
+}
+
+.categories .container .items .item2 .rate {
+    top: 455px;
+    left: 20px;
+}
+
+.categories .container .items .item2 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item2 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* third card */
+
+.categories .container .items .item3 {
+    left: 1060px;
+}
+
+
+.categories .container .items .item3 p {
+    left: 20px;
+    top: 380px;
+}
+
+.categories .container .items .item3 h2 {
+    left: 290px;
+    top: 390px;
+}
+
+.categories .container .items .item3 .p1 {
+    left: 310px;
+    top: 420px;
+}
+
+.categories .container .items .item3 .des {
+    top: 480px;
+}
+
+.categories .container .items .item3 .rate {
+    top: 455px;
+    left: 20px;
+}
+
+.categories .container .items .item3 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item3 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* fourth card */
+
+.categories .container .items .item4 {
+    top: 1600px;
+    left: 560px;
+}
+
+
+.categories .container .items .item4 p {
+    left: 20px;
+    top: 380px;
+}
+
+.categories .container .items .item4 h2 {
+    left: 290px;
+    top: 390px;
+}
+
+.categories .container .items .item4 .p1 {
+    left: 310px;
+    top: 420px;
+}
+
+.categories .container .items .item4 .des {
+    top: 480px;
+}
+
+.categories .container .items .item4 .rate {
+    top: 455px;
+    left: 20px;
+}
+
+.categories .container .items .item4 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item4 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* fifth card */
+
+.categories .container .items .item5 {
+    top: 1600px;
+    left: 50px;
+}
+
+
+.categories .container .items .item5 p {
+    left: 20px;
+    top: 380px;
+}
+
+.categories .container .items .item5 h2 {
+    left: 290px;
+    top: 390px;
+}
+
+.categories .container .items .item5 .p1 {
+    left: 310px;
+    top: 420px;
+}
+
+.categories .container .items .item5 .des {
+    top: 480px;
+}
+
+.categories .container .items .item5 .rate {
+    top: 455px;
+    left: 20px;
+}
+
+.categories .container .items .item5 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item5 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* sixth card */
+
+.categories .container .items .item6 {
+    top: 1600px;
+    left: 1060px;
+}
+
+.categories .container .items .item6 p {
+    left: 20px;
+    top: 380px;
+}
+
+.categories .container .items .item6 h2 {
+    left: 290px;
+    top: 390px;
+}
+
+.categories .container .items .item6 .p1 {
+    left: 310px;
+    top: 420px;
+}
+
+.categories .container .items .item6 .des {
+    top: 480px;
+}
+
+.categories .container .items .item6 .rate {
+    top: 455px;
+    left: 20px;
+}
+
+
+.categories .container .items .item6 .buttons button:nth-child(1) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--maincolor);
+    background-color: transparent;
+    color: var(--maincolor);
+    font-family: Arial, sans-serif;
+}
+
+.categories .container .items .item6 .buttons button:nth-child(2) {
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #AB0A0A;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* categories lock */
+
+
+
+.Chiefs .container {
+    width: 1520px;
+    top: 3100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Chiefs .container h1 {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.Chiefs .container h1::after {
+    content: " ";
+    color: #ffff;
+    background-color: var(--maincolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    bottom: -12px;
+    width: 210px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.Chiefs .container p {
+    position: absolute;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    left: 150px;
+}
+
+/* Chief1 */
+.Chiefs .container .Chief1 {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    background-color: #989696;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.Chiefs .container .Chief1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.Chiefs .container .Chief1 p {
+    position: relative;
+    font-weight: bolder;
+    font-size: larger;
+    top: -10px;
+    left: 110px;
+    color: gold;
+}
+
+.Chiefs .container .Chief1 p:nth-child(3) {
+    position: relative;
+    font-weight: bolder;
+    top: -20px;
+    left: 80px;
+    color: rgb(5, 4, 1);
+}
+
+.Chiefs .container .Chief1 .socail {
+    position: absolute;
+    font-size: xx-large;
+    bottom: -110px;
+    left: 130px;
+}
+
+/* Chief1 */
+.Chiefs .container .Chief2 {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.Chiefs .container .Chief2 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.Chiefs .container .Chief2 p {
+    position: relative;
+    font-weight: bolder;
+    font-size: larger;
+    top: -10px;
+    left: 110px;
+    color: gold;
+}
+
+.Chiefs .container .Chief2 p:nth-child(3) {
+    position: relative;
+    font-weight: bolder;
+    top: -20px;
+    left: 120px;
+    color: rgb(5, 4, 1);
+}
+
+.Chiefs .container .Chief2 .socail {
+    position: absolute;
+    font-size: xx-large;
+    bottom: -155px;
+    left: 145px;
+}
+
+/* Chief3 */
+.Chiefs .container .Chief3 {
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+    background-color: #989696;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.Chiefs .container .Chief3 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
+
+.Chiefs .container .Chief3 p {
+    position: relative;
+    font-weight: bolder;
+    font-size: larger;
+    top: -10px;
+    left: 90px;
+    color: gold;
+}
+
+.Chiefs .container .Chief3 p:nth-child(3) {
+    position: relative;
+    font-weight: bolder;
+    top: -20px;
+    left: 100px;
+    color:rgb(5, 4, 1);
+}
+
+.Chiefs .container .Chief3 .socail {
+    position: absolute;
+    font-size: xx-large;
+    bottom: -110px;
+    left: 125px;
+}
+
+/* Chiefs lock */
