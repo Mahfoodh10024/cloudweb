@@ -1,0 +1,6 @@
+body{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

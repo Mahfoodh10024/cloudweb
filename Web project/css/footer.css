@@ -1,0 +1,50 @@
+.end .container{
+    width: 1520px;
+    position: absolute;
+    top: 4000px;
+    display: flex;
+    align-content: space-around;
+}
+
+.end .container img{
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    left: 10px;
+}
+
+.end .container .cover{
+    background-color: black;
+    width: 1500px;
+    height: 800px;
+    opacity: 60%;
+    position: absolute;
+    left: 10px;
+}
+
+.end .container .Archeives ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        width: 1520px;
+        position: absolute;
+        color: #fff;
+        top: 400px;
+        font-family: 'Gilda Display', san-serif;
+        font-family: 'Lexend Zetta', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+}
+
+.end .container .Archeives{
+    position: absolute;
+    bottom: 200px;
+}
+
+.end .container .Archeives ul:nth-child(2){
+    width: 1470px;
+    color: #f3e306;
+    position:absolute;
+    top: 440px;
+}

@@ -1,0 +1,154 @@
+/* body{
+    background-color:#ffff;
+}
+
+p{
+    height:37px;
+    width: 200px;
+    transition: 20s;
+    transition-property: overflow;
+    transition-delay: 12s;
+    overflow: hidden;
+    color: #ffb300;
+}
+
+button{
+    background-color: #ffc000;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height:35px;
+    border: 1.8px solid #ffc000;
+    color: #ffffff;
+    border-radius:15px;
+            }
+
+button:hover{
+    color: white;
+    box-shadow: 0 0  15px  #ffc000,
+                0 0  30px  #ffc000,
+                0 0  60px  #ffc000,
+                0 0  120px  #ffc000;
+}
+
+.btn{
+    position: relative;
+    left: 200px;
+    transition: .5s;
+}
+
+ */
+
+
+/* 
+ @property --rotate {
+    syntax: "<angle>";
+    initial-value: 300deg;
+    inherits: true;
+  }
+  
+  :root {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  
+  
+  body {
+    min-height: 100vh;
+    background: #212534;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .card {
+    background: #191c29;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .card:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+  }
+  .card:hover:before, .card:hover:after {
+    animation: none;
+    opacity: 0;
+  }
+  
+  
+  .card::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #f6400e);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 2s linear infinite;
+  }
+  
+  .card::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #f6400e);
+      opacity: 1;
+    transition: opacity .5s;
+    animation:spin  2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+  a {
+    color: #212534;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+  } */
+
+
+  .pop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.264);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
